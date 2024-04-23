@@ -1,8 +1,8 @@
 # Benchwarmers
 
-![hero-section-3]([https://github.com/seanathan3/Benchwarmers/assets/111205278/c4d7e6c3-3122-4af6-a6ef-d0fd037c7da5](https://mernproject-benchwarmers.onrender.com/))
+![hero-section-3](https://github.com/seanathan3/Benchwarmers/assets/111205278/c4d7e6c3-3122-4af6-a6ef-d0fd037c7da5)
 
-[Live Link!](https://benchwarmers.onrender.com)
+[Live Link!]([https://benchwarmers.onrender.com](https://mernproject-benchwarmers.onrender.com/))
 
 ## Background and Overview
 Despite the world becoming more connected by the minute, why is it so hard to find people to play our favorite pickup sports with? Enter Benchwarmers. Benchwarmers is an application designed for people who want to play pickup sports in groups but don't have people to play with. Users can create and join 'games' on the application to play their favorite sports and make new friends in the process. Benchwarmers aims to be a simplistic and modern website that allows users to easily access any game and its information in just a couple of clicks.
