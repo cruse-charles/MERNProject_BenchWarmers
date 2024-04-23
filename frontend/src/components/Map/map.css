@@ -1,0 +1,69 @@
+#map {
+    height: 100%;
+    width: 100%
+}
+
+#gf-map{
+    height: 500%;
+}
+
+#pin-title{
+    font-size: 20px;
+    color: #406db4;
+}
+
+#pin-title:hover {
+    color: var(--orange);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#pin-date, #pin-time{
+    text-align: center;
+}
+
+#gf-map input[type=text] {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    line-height: 40px;
+    margin-right: 0;
+    min-width: 25%;
+}
+
+#gf-map input[type=button] {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+#search-container{
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 40px;
+}
+
+#magnifying-glass{
+    position: relative;
+    right: 5px;
+}
+
+#search-container:hover{
+    background-color: rgba(251, 244, 244, 0.897);
+}

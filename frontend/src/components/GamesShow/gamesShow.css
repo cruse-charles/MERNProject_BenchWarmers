@@ -1,0 +1,89 @@
+#gs-master {
+    width: 925px;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(233, 153, 55, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+
+#gs-header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    background-color: var(--peach);
+    color: whitesmoke;
+    border-radius: 16px;
+}
+
+#gs-content {
+    line-height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    flex: 1;
+}
+
+#gs-left {
+    width: 590px;
+}
+
+#gs-title {
+    font-size: 36px;
+    padding: 20px 0 0 20px;
+}
+
+#gs-host {
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+#gs-peach {
+    color: var(--peach);
+}
+
+#gs-date {
+    margin-top: 10px;
+}
+
+#gs-skill-level {
+    margin-top: 20px;
+}
+
+#gs-description {
+    margin-top: 40px;
+}
+
+#gs-spots-left {
+    margin-top: 60px;
+    color: var(--peach);
+    font-weight: 500;
+    text-shadow: 1px solid #89250e;
+}
+
+#gs-right {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+#jg-button {
+    position: relative;
+    right: 0px;
+    width: 250px;
+}
+
+#details {
+    font-weight: 600;
+}
+
+#gs-ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}

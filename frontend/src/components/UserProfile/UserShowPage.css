@@ -1,0 +1,78 @@
+#user-page {
+  background-color:  rgb(236, 59, 19, 0.3);
+  flex: 1;
+  padding-bottom: 100px;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: Jost, sans-serif;
+}
+#welcome-AI {
+  display: flex;
+  justify-content: center;
+  font-family: Jost, sans-serif;
+}
+
+#user-info {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#games {
+  display: flex;
+  font-family: Jost, sans-serif;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#welcome {
+  font-size: 30px;
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+}
+
+#title {
+  font-weight: 600;
+}
+
+#up-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 47%;
+  height: 450px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Jost, sans-serif;
+  background-color: rgb(225, 104, 69, 0.5);
+  box-shadow: 5px 5px 15px rgb(143, 199, 227, 0.5);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-line; 
+}
+
+.A-I {
+  margin-left: 20px;
+  font-family: Jost, sans-serif;
+  width: 50%;
+}
+
+.up-button {
+  display: flex;
+  font-family: Jost, sans-serif;
+  justify-content: center;
+  width: 100%;
+}
+
+
+

@@ -1,0 +1,94 @@
+
+
+#s-master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#s-heroSection {
+    background-color: rgb(225, 104, 69, 0.7);
+    color: black;
+    height: 300px;
+    font-size: 72px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#blank {
+    color: rgb(225, 104, 69, 0.1);
+}
+
+#s-content {
+    display: flex;
+    width: 100%;
+    /* height: calc(100vh - 184px); */
+    height: 100%;
+    background-color: rgb(236, 59, 19, 0.3);
+}
+#s-content-container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-sizing:border-box;
+    border-top: 2px solid black;
+    z-index: 1;
+}
+
+#s-upcoming-games {
+    box-sizing: border-box;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 24px;
+    flex: 1;
+    border-right: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#s-upcoming-games div {
+    width: 400px;
+}
+
+#s-create-game {
+    box-sizing: border-box;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 24px;
+    border-left: 1px dotted black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sc-header {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+#s-hs-cover {
+    position: absolute;
+    height: 306px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgba(250, 250, 250, 0.9);
+}
